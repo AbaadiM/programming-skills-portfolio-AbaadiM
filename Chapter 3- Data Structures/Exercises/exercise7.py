@@ -11,7 +11,7 @@
 #• Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
 # Create a list of locations
-locations = ['sharah', 'ajman', 'dubai', abudhabi', 'ras al khaimah']
+locations = ['sharah', 'ajman', 'dubai', 'abudhabi', 'ras al khaimah']
 
 # Print the original list
 Original_list = locations

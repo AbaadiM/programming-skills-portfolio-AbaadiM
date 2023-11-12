@@ -2,7 +2,7 @@
 #print a message to them. The text of each message should be the same, but each message should be 
 #personalized with the person’s name.
 
-names = ["hamdan", "safa", "isra", "yousef", "faizan"]
+names = ["usman", "kamran", "hamdan", "safa", "atiq"]
 for name in names:
     print(f"Hello, {name}! How are you doing?")
     

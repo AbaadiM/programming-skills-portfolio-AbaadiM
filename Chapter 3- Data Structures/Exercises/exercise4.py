@@ -1,16 +1,6 @@
 #If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d
 #like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
 
-dinner_guests = [
-    ("zeeshan", "I'd like to invite you to dinner as your my favorite colleague"),
-    ("safa", "I'd like to invite you to dinner because you are the one who kept me motivated in my bad times"),
-    ("hamdan", "I'd like to invite you to dinner as your my bestie from childhood"),
-    ("abubakar", "I'd like to invite you to dinner because your my family friend")
-]
-
-for guest in dinner_guests:
-    print(f"Hello {guest[0]}, {guest[1]}")
-
 
 #djikm
 dinner_guest =["Mohammed Rashid", "Abdullah Kamran", "Abdullah Zahid"]

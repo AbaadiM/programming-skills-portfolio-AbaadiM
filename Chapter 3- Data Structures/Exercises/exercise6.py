@@ -4,7 +4,7 @@
 #•Print a message to each of the two people still on your list, letting them know they’re still invited.
 #•Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 
-dinner_guests = ["safa","hamdan","Abaadi"]
+dinner_guests = ["Mohammed Rashid", "Abdullah Kamran", "Abdullah Zahid"]
 print("Unfortunately, the dinner table won't arrive in time for the dinner.")
 print("We can invite only two people for dinner.")
 while len(dinner_guests) > 2:
@@ -13,6 +13,5 @@ while len(dinner_guests) > 2:
 for guest in dinner_guests:
    print(f"{guest}, you're still invited for the dinner")
 
-del dinner_guests[0], dinner_guests[1]
-print("List is empty")
-print(dinner_guests)
+del dinner_guests[:]
+print('Guest list;', dinner_guests)

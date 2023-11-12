@@ -3,5 +3,5 @@
 message = "hello"
 print(message)
 
-message2 ="world"
-print(message2)
+message ="world"
+print(message)

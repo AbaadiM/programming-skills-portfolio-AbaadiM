@@ -1,5 +1,3 @@
 import sys
-print("python version")
-print("sys.version")
-print("version info.")
-print(sys.verion_info)
+print('The current version of python is',sys.version)
+
